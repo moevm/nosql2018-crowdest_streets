@@ -1,0 +1,116 @@
+h1{
+    font-family: "Courier New";
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+    width: 100%;
+}
+
+.result{
+    border: none;
+    outline: none;
+}
+
+.but{
+    background: linear-gradient(grey, lightgray);
+    cursor: pointer;
+}
+
+.but:active{
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#map {
+    width: 600px;
+    height: 400px;
+    //left: 20px;
+}
+
+#impButton {
+    position: absolute;
+    top: 260px;
+    left: 1010px;
+}
+
+#expBtn {
+    position: absolute;
+    top: 200px;
+    left: 1010px;
+}
+
+#rectangle{
+    position: absolute;
+    top: 130px;
+    left: 990px;
+    width: 250px;
+    height: 190px;
+    border: 1px solid black;
+}
+
+#bdWork {
+    position: absolute;
+    top: 140px;
+    left: 1060px;
+    width: 250px;
+}
+
+#bdWorkExp {
+    position: absolute;
+    top: 170px;
+    left: 1000px;
+    width: 250px;
+}
+
+#bdWorkImp {
+    position: absolute;
+    top: 230px;
+    left: 1000px;
+    width: 250px;
+}
+
+#impBtn {
+    position: absolute;
+    top: 30px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-input::before {
+    content: 'Выберите файл';
+    display: inline-block;
+    background: linear-gradient(grey, lightgray);
+    border: 2px solid #999;
+    border-bottom-color: grey;
+    border-right-color: grey;
+    border-left-color: lightgray;
+    border-top-color: lightgray;
+    cursor: pointer;
+    text-align: center;
+    white-space: normal;
+    outline: none;
+    padding: 2px;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#myTable {
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+#strInput{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+#strBtn{
+    position: absolute;
+    top: 190px;
+    left: 350px;
+}
